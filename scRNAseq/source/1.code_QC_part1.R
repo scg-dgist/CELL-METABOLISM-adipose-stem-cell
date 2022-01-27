@@ -32,10 +32,6 @@ hist(A1$total_counts,
      breaks=100, col="grey80",
      xlab="Log-total UMI count")
 
-hist(H9$total_counts, 
-     breaks=100, col="grey80",
-     xlab="Log-total UMI count")
-
 A1 <- A1[,which(e.out.A1$FDR < 0.01)]
 
 library(scater)
